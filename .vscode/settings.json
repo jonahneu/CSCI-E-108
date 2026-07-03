@@ -1,0 +1,13 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+  "jupyter.notebookFileRoot": "${fileDirname}",
+  "notebook.formatOnSave.enabled": true,
+  "notebook.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
+  "black-formatter.args": ["--line-length", "100"]
+}
